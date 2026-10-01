@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "productdisplayname": "Grøn Jakke",
+    "description": "Let jakke til hverdagen",
+    "price": 565,
+    "image": "images/img1.webp",
+    "category": "Jakker"
+  },
+  {
+    "id": 2,
+    "productdisplayname": "Grøn Stribet T-Shirt",
+    "description": "Klassisk T-shirt med grønne striber",
+    "price": 249,
+    "image": "images/img2.webp",
+    "category": "T-shirts"
+  },
+  {
+    "id": 3,
+    "productdisplayname": "Rød Stribet T-Shirt",
+    "description": "Enkel T-shirt med røde striber",
+    "price": 249,
+    "image": "images/img3.webp",
+    "category": "T-shirts"
+  },
+  {
+    "id": 4,
+    "productdisplayname": "Sort Dunjakke",
+    "description": "Dunjakke til kolde dage",
+    "price": 789,
+    "image": "images/img4.webp",
+    "category": "Jakker"
+  },
+  {
+    "id": 5,
+    "productdisplayname": "Grøn Langærmet",
+    "description": "Langærmet trøje til hverdagen",
+    "price": 169,
+    "image": "images/img5.webp",
+    "category": "Trøjer"
+  },
+  {
+    "id": 6,
+    "productdisplayname": "Hvid Langærmet",
+    "description": "Enkel trøje til et afslappet look",
+    "price": 239,
+    "image": "images/img6.webp",
+    "category": "Trøjer"
+  },
+  {
+    "id": 7,
+    "productdisplayname": "Stribet Polo",
+    "description": "Klassisk polo med striber",
+    "price": 399,
+    "image": "images/img7.webp",
+    "category": "Poloer"
+  },
+  {
+    "id": 8,
+    "productdisplayname": "Hvid Jakke",
+    "description": "Lys jakke til et enkelt look",
+    "price": 649,
+    "image": "images/img8.webp",
+    "category": "Jakker"
+  },
+  {
+    "id": 9,
+    "productdisplayname": "Skjorte",
+    "description": "Skjorte til hverdag og fest",
+    "price": 345,
+    "image": "images/img9.webp",
+    "category": "Skjorter"
+  }
+]

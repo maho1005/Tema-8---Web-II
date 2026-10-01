@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Fashion | Produkter</title>
+
+    <link rel="stylesheet" href="productlist.css" />
+
+    <script src="shop.js" defer></script>
+    <script src="productlist.js" defer></script>
+  </head>
+
+  <body>
+    <a class="skip" href="#main">Hop til indhold</a>
+
+    <header>
+      <a class="logo" href="index.html">
+        FASHION
+        <span>Tøj til din hverdag</span>
+      </a>
+
+      <nav aria-label="Navigation">
+        <a href="index.html">Forside</a>
+        <a href="productlist.html" aria-current="page">Alle produkter</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <button id="backButton" class="back-button" type="button">
+        <span aria-hidden="true">←</span>
+        Tilbage
+      </button>
+
+      <p class="eyebrow">Kollektionen</p>
+      <h1 id="listTitle">Alle produkter</h1>
+
+      <div class="toolbar">
+        <label for="categorySelect">
+          Kategori
+          <select id="categorySelect">
+            <option value="">Alle kategorier</option>
+          </select>
+        </label>
+
+        <p id="count" role="status">Indlæser produkter …</p>
+      </div>
+
+      <nav id="sortering" aria-label="Sortér produkter">
+        <button type="button" aria-pressed="false">Pris lav–høj</button>
+        <button type="button" aria-pressed="false">Pris høj–lav</button>
+        <button type="button" aria-pressed="false">A–Z</button>
+        <button type="button" aria-pressed="false">Z–A</button>
+      </nav>
+
+      <section id="productList" class="product-grid" aria-label="Produkter"></section>
+
+      <button id="loadMore" class="button" type="button" hidden>Vis flere produkter</button>
+    </main>
+
+    <footer>
+      <p>FASHION</p>
+      <p>Et studieprojekt · Tema 08</p>
+    </footer>
+  </body>
+</html>
