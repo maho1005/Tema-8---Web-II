@@ -105,7 +105,7 @@ function sorter(e) {
   visSorteredeProdukter();
 }
 
-// Sortér efter pris eller navn som i slidesene.
+// Sortér efter pris eller navn.
 function visSorteredeProdukter() {
   const sorteredeProdukter = [...udsnit];
 
