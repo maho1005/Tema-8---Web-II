@@ -11,7 +11,7 @@ async function getJSON(url) {
   return response.json();
 }
 
-// Sørg for, at tekst fra API'et vises som tekst i vores HTML.
+// Sørg for, at tekst fra API'et vises som tekst i HTML.
 function escapeHTML(value) {
   const characters = {
     "&": "&amp;",
